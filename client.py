@@ -8,7 +8,7 @@ if len(sys.argv) != 3:
     exit()
 
 
-host = sys.argv[1]
+host = str(sys.argv[1])
 port = int(sys.argv[2])
 
 

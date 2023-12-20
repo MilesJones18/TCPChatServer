@@ -9,7 +9,7 @@ if len(sys.argv) != 3:
 
 
 # Take each arguement as IP and port respectively
-host = sys.argv[1]
+host = str(sys.argv[1])
 
 port = int(sys.argv[2])
 
